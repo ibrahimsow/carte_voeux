@@ -1,0 +1,29 @@
+label {
+  font-weight: bold;
+  color: #00B286; }
+
+button, input, optgroup, select, textarea {
+  border: none;
+  border-bottom: solid 1.5px #00B286;
+  margin-bottom: 15px;
+  width: 25vw;
+  background: none;
+  outline: none;
+  resize: none; }
+  @media (max-width: 575px) {
+    button, input, optgroup, select, textarea {
+      width: 65vw; } }
+  @media (min-width: 576px) and (max-width: 767px) {
+    button, input, optgroup, select, textarea {
+      width: 60vw; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    button, input, optgroup, select, textarea {
+      width: 60vw; } }
+
+.btn {
+  background-color: #00B286;
+  color: white;
+  box-shadow: 5px 5px 30px #00000038;
+  border: none; }
+
+/*# sourceMappingURL=style.css.map */
